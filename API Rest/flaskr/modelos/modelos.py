@@ -50,5 +50,9 @@ class AlbumSchema(SQLAlchemyAutoSchema):
         model = Album
         include_relationships = True
         load_instance = True
-
+class CancionSchema(SQLAlchemyAutoSchema):
+    class Meta:
+        model = Album
+        include_relationships = True
+        load_instance = True
 
